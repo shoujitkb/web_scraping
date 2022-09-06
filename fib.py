@@ -8,5 +8,7 @@ def fib(n):
     else:
         return fib(n-2)+fib(n-1)
 
-for i in range(7):
-    print(fib(i))
+#for i in range(7):
+#    print(fib(i))
+number=int(input("数字を入力してください:"))
+print(fib(number))
